@@ -25,14 +25,17 @@ function App() {
   return (
     
     <div className="App">
+      
+      <div className='Container1'>
       <h1> My Grocery List</h1>
     {grList.map((ele, idx) => {
   
   return( !ele.isPurchased && <GroceryItem ele={ele} key={idx}/>  )
 
 })}
-
-    <form onSubmit={addItem}>
+      </div>
+     <div className='Container2'>
+     <form onSubmit={addItem}>
             <h3>Add an item to your list</h3>
             <p>Item:</p> <input type='text' name="item"></input> <br/>
             <p>Brand:</p> <input type='text' name="brand"></input><br/>
@@ -40,8 +43,11 @@ function App() {
             <br/>
             <p>Quantity:</p> <input type='number' name="quantity"></input><br/>
             <input type='submit' value='submit'></input>
-        </form>
+      </form>
 
+     </div>
+      
+    
       </div>
   );
 }
