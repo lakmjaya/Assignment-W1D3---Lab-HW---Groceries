@@ -24,3 +24,14 @@
   justify-content:space-evenly;
   background-color: rgb(206, 138, 138);
 }
+
+.each1 {
+  background-color: #3e4b64;
+  border-radius: 1rem;
+  flex-direction:row;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  display: flex;
+  box-shadow: 10px 10px 0 0 rgb(5, 2, 27);
+  }

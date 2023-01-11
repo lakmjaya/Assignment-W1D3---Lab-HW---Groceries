@@ -44,11 +44,8 @@ function App() {
             <p>Quantity:</p> <input type='number' name="quantity"></input><br/>
             <input type='submit' value='submit'></input>
       </form>
-
-     </div>
-      
-    
-      </div>
+     </div>   
+    </div>
   );
 }
 
